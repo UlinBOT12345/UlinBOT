@@ -1,5 +1,5 @@
-exports.menu = (id, BotName, corohelp, tampilTanggal, tampilWaktu, instagram, aktif) => {
-	return ` *${BotName}*
+exports.menu = (id, UlinBot, corohelp, tampilTanggal, tampilWaktu, instagram, aktif) => {
+	return ` *${UlinBot}*
   
 *${tampilTanggal}* 
 *${tampilWaktu}* 
@@ -8,7 +8,7 @@ exports.menu = (id, BotName, corohelp, tampilTanggal, tampilWaktu, instagram, ak
 
 「 VVIPINDO BOT 」
 
-╭════•›「 ${BotName} 」
+╭════•›「 ${Ulin BOT} 」
 ├≽️ *.Menu*
 ├ _Menampilkan list menu_
 ├≽️ *.Group* 
@@ -189,6 +189,6 @@ exports.menu = (id, BotName, corohelp, tampilTanggal, tampilWaktu, instagram, ak
 ╰═══════════════
 
 *Follow Me On Instagram*
-${instagram}`
+$https://instagram.com/ulin_funky?igshid=88mrl7oy0fy3
 
 }
